@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+  }
+  
+  p, .p {
+    color: AliceBlue;
+    line-height: 1.3em;
+    text-align: left;
+    font-size: medium;
+    width: 100%;
+  }
+
+  .text-smaller {
+    color: AliceBlue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .p {
+      text-align: center;
+  }
+  
+  .author {
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+
+  footer {
+    font-family: 'Courier New', Courier, monospace;
+    clear: both;
+    background: #212121;
+    color: #eeeeee;
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+    }
+
+  .box-200 {
+    width: 250px;
+    height: 200px;
+    float: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: left;
+    }
+
+  .box-output {
+    width: 450px;
+    float: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: left;
+    }
+  
+  #myBar {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+  }

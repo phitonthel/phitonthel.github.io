@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Monte Carlo
+  </title>
+
+  <link href="assets/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="content">
+    <h1>Using Monte Carlo Method to Calculate RNG-Based Game
+    </h1>
+  </div>
+
+  <div class="content"> 
+    <p style="font-size: large; text-align: center;">
+      Let's say you are playing an RNG game. There's a rare loot of a boss which only drop 1% each time you kill him. So you're going to have to grind that. <br><br>
+      The question is: if you're grinding <span style="font-size: xx-large;"> 100 times </span>, what are the odds that you'll get at least <span style="font-size: xx-large;"> 1 loot drop </span>? <br><br>
+      One solution is to use complex statistical method to solve it. But since we have the power of computational system in our hands, why not use it? <br><br>
+      We're going to simulate, let's say 10000 people who are going to grind that boss. Each person are going slain 100 bosses. We're going to see the loot drop from these people. <br><br>
+      To give you a start, let's try to fill the box below with 10000, 100, 0.01 respectively.
+    </p>
+  </div>
+
+
+
+  <div class="form box-200 text-smaller" style="font-size: medium;">
+    <form id="form1" action="/action_page.php">
+      Number of People Who Tries: <br><input id="iteration" style="min-width: 250px;" type="text" name="fname"><br>
+      Number of Attempt per Person: <br><input id="nTry" style="min-width: 250px;" type="text" name="nTry"><br>
+      Probability of success: <br><input id="probability" style="min-width: 250px;" type="text" name="lname"><br><br>
+      <input id="buttonSubmit" type="button" value="Submit">
+    </form>
+  </div>
+
+  <div id="myProgress">
+    ...
+  </div>
+
+  <div class="box-output text-smaller" id="output" style="font-size: medium;">
+    
+  </div>
+
+  <div class="content"> 
+    <p style="font-size: large; text-align: center;">
+      Notice that everytime you click submit, the number will change. This is because the computer generates a new random people. <br>
+      The more "Number of People Who Tries" that you input, the more accurate the result. But this will take the computer longer to computer.<br>
+      Monte Carlo has some interesting background. Too learn more about Monte Carlo method, you can click my Line post here <a href="https://timeline.line.me/post/_dbSsUaIAakBLPc-X-155omtoTndap3JqV9YJbPw/1156124098502019597" target="_blank"><img src="./assets/line.png" height="20px" width="20px"></a>
+    </p>
+  </div>
+  
+
+  <footer id="footer">
+    Created by: Bartolomeus Delphito <br>
+    <a href="https://www.linkedin.com/in/bartolomeus-delphito" target="_blank"><img src="./assets/linkedin.png" height="40px" width="40px"></a>
+    <!-- <a href="https://github.com/phitonthel" target="_blank"><img src="./assets/github.png" height="40px" width="40px"></a> -->
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
